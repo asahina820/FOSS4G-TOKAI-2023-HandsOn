@@ -18,11 +18,10 @@ const map = new maplibregl.Map({
                 // データの帰属
                 attribution: "地図の出典：<a href='http://www.openstreetmap.org/about/' target='_blank'>© OpenStreetMap</a>",
             },
-            // 愛知県の施設データ
-            'facility-point': {
+            // 名古屋市の景観資源データ
+            'landscape-point': {
                 type: 'geojson',
-                // タイルソースのURL
-                data: './data/facility.geojson',
+                data: './data/landscape.geojson',
                 attribution: "データの出典：<a href='https://maps.pref.aichi.jp/opendata.html' target='_blank'>愛知県オープンデータカタログ</a>",
             },
         },
@@ -37,11 +36,11 @@ const map = new maplibregl.Map({
                 // データソースの指定
                 source: 'osm-tile',
             },
-            // 愛知県の施設のポイントデータを追加
+            // 名古屋市の景観資源データのポイントデータを追加
             {
                 id: 'point-layer',
                 type: 'circle',
-                source: 'facility-point',
+                source: 'landscape-point',
                 paint: {
                     'circle-radius': 10,
                     'circle-color': '#3887be',
@@ -54,7 +53,7 @@ const map = new maplibregl.Map({
 // ポイントクリック時にポップアップを表示する
 map.on('click', 'point-layer', function (e) {
     var coordinates = e.features[0].geometry.coordinates.slice();
-    var name = e.features[0].properties.データ名;
+    var name = e.features[0].properties.タイトル;
 
     while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
         coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
