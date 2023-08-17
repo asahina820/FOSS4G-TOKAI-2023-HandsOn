@@ -36,7 +36,7 @@ const map = new maplibregl.Map({
                 // データソースの指定
                 source: 'osm-tile',
             },
-            // 名古屋市の景観資源データのポイントデータを追加
+            // 名古屋市の景観資源のポイントデータを追加
             {
                 id: 'point-layer',
                 type: 'circle',
