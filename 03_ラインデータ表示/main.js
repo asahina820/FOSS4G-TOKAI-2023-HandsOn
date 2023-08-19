@@ -24,10 +24,10 @@ const map = new maplibregl.Map({
                 data: './data/landscape.geojson',
                 attribution: "データの出典：<a href='https://maps.pref.aichi.jp/opendata.html' target='_blank'>愛知県オープンデータカタログ</a>",
             },
-            // 愛知県の自転車専用道路データ
-            'bicycle-load-point': {
+            // 愛知県の自動車専用道路データ
+            'load-line': {
                 type: 'geojson',
-                data: './data/bicycle_load.geojson',
+                data: './data/load.geojson',
             },
         },
         // 表示するレイヤ
@@ -51,11 +51,11 @@ const map = new maplibregl.Map({
                     'circle-color': '#3887be',
                 },
             },
-            // 愛知県の自転車専用道路のラインデータを追加
+            // 愛知県の自動車専用道路のラインデータを追加
             {
                 id: 'line-layer',
                 type: 'line',
-                source: 'bicycle-load-point',
+                source: 'load-line',
                 paint: {
                     'line-color': '#717375',
                     'line-width': 5,
