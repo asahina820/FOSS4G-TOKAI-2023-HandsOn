@@ -16,7 +16,7 @@ const map = new maplibregl.Map({
                 // タイルの解像度。単位はピクセル、デフォルトは512
                 tileSize: 256,
                 // データの帰属
-                attribution: "地図の出典：<a href='http://www.openstreetmap.org/about/' target='_blank'>© OpenStreetMap</a>",
+                attribution: "地図の出典：<a href='https://www.openstreetmap.org/copyright' target='_blank'>© OpenStreetMap contributors</a>",
             },
         },
         // 表示するレイヤ
