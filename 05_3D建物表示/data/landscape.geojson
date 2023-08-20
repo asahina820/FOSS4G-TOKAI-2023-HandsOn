@@ -1,0 +1,263 @@
+{
+    "type": "FeatureCollection",
+    "name": "landscape",
+    "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 0,
+                "タイトル": "庄内緑地公園",
+                "説明": null,
+                "スタイルID": "#style7",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.882312767277995, 35.2103158448448] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 1,
+                "タイトル": "鶴舞公園",
+                "説明": null,
+                "スタイルID": "#style8",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.920657162411004, 35.155393739648503] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 10,
+                "タイトル": "名古屋テレビ塔",
+                "説明": null,
+                "スタイルID": "#style10",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.908343220679001, 35.172333326793598] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 11,
+                "タイトル": "隼人池公園",
+                "説明": "&lt;br&gt;",
+                "スタイルID": "#style1",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.957003183877987, 35.141038894683398] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 12,
+                "タイトル": "ノリタケの森",
+                "説明": null,
+                "スタイルID": "#style6",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.88157335154699, 35.179890479953997] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 13,
+                "タイトル": "星が丘テラス",
+                "説明": null,
+                "スタイルID": "#style15",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.985459112288993, 35.160988793561003] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 14,
+                "タイトル": "納屋橋",
+                "説明": null,
+                "スタイルID": "#style14",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.891737424040997, 35.167708422482001] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 15,
+                "タイトル": "中川区富永",
+                "説明": null,
+                "スタイルID": "#style16",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.804978726407001, 35.125788595901703] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 2,
+                "タイトル": "大高緑地",
+                "説明": null,
+                "スタイルID": "#style12",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.95472374480201, 35.063518703803901] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 3,
+                "タイトル": "桜通",
+                "説明": "&lt;img src=&quot;http://cbk0.google.com/cbk?output=thumbnail&amp;amp;w=90&amp;amp;h=68&amp;amp;ll=35.173895,136.911670&quot;&gt;",
+                "スタイルID": "#style4",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.897198007788006, 35.172967101173803] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 4,
+                "タイトル": "昭和美術館",
+                "説明": null,
+                "スタイルID": "#style11",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.948379385227014, 35.140302507037198] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 5,
+                "タイトル": "白壁・主税・橦木町並み保存地区",
+                "説明": "&lt;a href=&quot;http://www.google.co.jp/maps/place?ftid=0x600371271f4ae06f:0x76cc735fd2a09960&amp;amp;q=%E6%A9%A6%E6%9C%A8%E7%94%BA&amp;amp;hl=ja&amp;amp;cad=src:ppiwlink&amp;amp;ei=pv1LS-uvJZDooATC8c2vDw&amp;amp;dtab=5&quot;&gt;&lt;img src=&quot;http:",
+                "スタイルID": "#style2",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.918748625159992, 35.180278766703502] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 6,
+                "タイトル": "爲三郎記念館",
+                "説明": null,
+                "スタイルID": "#style9",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.948239998643004, 35.167823476903301] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 7,
+                "タイトル": "名古屋市役所",
+                "説明": null,
+                "スタイルID": "#style5",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.906403823417008, 35.181478833195797] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 8,
+                "タイトル": "名古屋城天守閣",
+                "説明": null,
+                "スタイルID": "#style13",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.899088948745998, 35.185564459712801] }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "gid": 9,
+                "タイトル": "名古屋大学 豊田講堂",
+                "説明": null,
+                "スタイルID": "#style3",
+                "開始日時": null,
+                "終了日時": null,
+                "作成者": "システム管理者",
+                "作成日時": "2015-01-26",
+                "更新者": "システム管理者",
+                "更新日時": null
+            },
+            "geometry": { "type": "Point", "coordinates": [136.968002366498013, 35.153362216165] }
+        }
+    ]
+}
