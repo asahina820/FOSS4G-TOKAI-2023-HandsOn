@@ -26,6 +26,7 @@ const map = new maplibregl.Map({
             // 名古屋市の景観資源データ
             'landscape-point': {
                 type: 'geojson',
+                // GeoJSONファイルのURL
                 data: './data/landscape.geojson',
                 attribution: "データの出典：<a href='https://maps.pref.aichi.jp/opendata.html' target='_blank'>愛知県オープンデータカタログ</a>",
             },
@@ -85,7 +86,9 @@ const map = new maplibregl.Map({
                 type: 'circle',
                 source: 'landscape-point',
                 paint: {
+                    // 丸の半径。単位はピクセル。
                     'circle-radius': 10,
+                    // 丸の色
                     'circle-color': '#3887be',
                 },
             },
@@ -95,7 +98,9 @@ const map = new maplibregl.Map({
                 type: 'line',
                 source: 'load-line',
                 paint: {
+                    // ラインの色
                     'line-color': '#717375',
+                    // ラインの幅
                     'line-width': 5,
                 },
             },
@@ -105,8 +110,11 @@ const map = new maplibregl.Map({
                 type: 'fill',
                 source: 'square-polygon',
                 paint: {
+                    // 塗りつぶしの色
                     'fill-color': '#4db56a',
+                    // 塗りつぶしの透明度。0になるほど透明に、1になるほど不透明になる
                     'fill-opacity': 0.8,
+                    // 枠の色
                     'fill-outline-color': '#000000',
                 },
             },
